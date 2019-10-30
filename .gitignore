@@ -1,0 +1,5 @@
+/node_modules
+/vendor
+.env
+composer.lock
+npm-debug.log

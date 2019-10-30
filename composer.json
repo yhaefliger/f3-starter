@@ -1,0 +1,6 @@
+{
+    "require":{
+        "bcosca/fatfree-core": "^3.6",
+        "robmorgan/phinx": "^0.11.1"
+    }
+}
