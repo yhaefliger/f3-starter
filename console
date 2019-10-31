@@ -1,11 +1,14 @@
 #!/usr/bin/env php
 <?php
 require __DIR__.'/bootstrap.php';
+use App\Utils\Console;
 
 $f3 = \Base::instance();
 
+$f3->set('DB', $db);
+
 $f3->route('GET / [cli]', function($f3){
-    echo 'CLI';
+    Console::log('F3 CLI', 'green');
 });
 
 $f3->run();
