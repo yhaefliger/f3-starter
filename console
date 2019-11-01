@@ -5,7 +5,11 @@ use App\Utils\Console;
 
 $f3 = \Base::instance();
 
+$f3->set('BASE_DIR', __DIR__);
+
 $f3->set('DB', $db);
+
+$f3->config($f3->get('BASE_DIR').'/config/app.ini', true);
 
 $f3->route('GET / [cli]', function($f3){
     Console::log('F3 CLI', 'green');
