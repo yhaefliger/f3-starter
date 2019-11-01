@@ -25,7 +25,7 @@ class BaseController {
     public function afterroute($f3) 
     {
       // Render HTML layout
-		  echo \Template::instance()->render('layouts'.DS.$this->getLayout().'.html');
+      echo \Template::instance()->render('layouts'.DS.$this->getLayout().'.html');
     }
     
     public function home($f3) 
