@@ -35,7 +35,7 @@ class BaseController {
 
     public function error($f3)
     {
-        var_dump($f3->get('ERROR'));die();
+      var_dump($f3->get('ERROR'));die();
     }
 
     /**
