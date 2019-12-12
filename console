@@ -12,7 +12,7 @@ $f3->set('DB', $db);
 $f3->config($f3->get('BASE_DIR').'/config/app.ini', true);
 
 $f3->route('GET / [cli]', function($f3){
-    Console::log('F3 CLI', 'green');
+    Console::log($f3->get('APP'), 'green');
 });
 
 $f3->run();
