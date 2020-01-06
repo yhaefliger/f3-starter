@@ -9,10 +9,10 @@ It comes prebuilt with
 
 ## Pre-Requists
 
-* WebServer (Apache or Nginx)
-* PHP (>= 7.2 recommended)
-* Composer
-* NodeJS (with NPM or Yarn)
+- WebServer (Apache or Nginx)
+- PHP (>= 7.2 recommended)
+- Composer
+- NodeJS (with NPM or Yarn)
 
 ## Installation
 
@@ -44,11 +44,12 @@ Configure your host to point to the **public** directory
 ## Application Structure
 
 The directory structure is close to Laravel to offer a modern and more secure architecture.
-The **app** folder is autoloaded and can contain your models/controllers/...
-The **config** directory can contain your config files currently in the F3 .ini format.
-The **public** is the only folder that need to be accessible to your host with the index.php file and all compiled assets.
-The **resources** folder  contains the uncompiled assets and the template files in the [F3 Template Language](https://fatfreeframework.com/3.6/views-and-templates#AQuickLookattheF3TemplateLanguage)
-The **var** folder is for temporary files and logs.
+
+- The **app** folder is autoloaded and can contain your models/controllers/...
+- The **config** directory can contain your config files currently in the F3 .ini format.
+- The **public** is the only folder that need to be accessible to your host with the index.php file and all compiled assets.
+- The **resources** folder  contains the uncompiled assets and the template files in the [F3 Template Language](https://fatfreeframework.com/3.6/views-and-templates#AQuickLookattheF3TemplateLanguage)
+- The **var** folder is for temporary files and logs.
 
 ## Database
 
