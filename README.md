@@ -1,6 +1,6 @@
 # Fat Free Framework Starter
 
-PHP lightweight app starter with F3 (Fat Free Framework) configured in a modern structure close to Laravel.
+PHP lightweight app starter with [F3 (Fat Free Framework)](https://fatfreeframework.com/) configured in a modern structure close to Laravel.
 It comes prebuilt with
 - Laravel-mix for assets compilation
 - Phinx for database migrations and seeding
