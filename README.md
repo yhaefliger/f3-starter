@@ -62,8 +62,11 @@ vendor/bin/phinx test
 ```
 
 You can see the phinx documentation (f3-starter is configured with phinx folders in **/database/**
+
 [https://book.cakephp.org/phinx/](https://book.cakephp.org/phinx/)
+
 For F3 (and console) the database is set to the variable DB variable. See the F3 documentation for mapping and request builder
+
 [https://fatfreeframework.com/3.6/databases](https://fatfreeframework.com/3.6/databases)
 
 
@@ -84,9 +87,8 @@ The starter is configured with tailwindcss and laravel-mix. You can use the comm
 npm run prod
 ```
 Check the laravel mix and tailwindcss documentation for more informations.
-[https://laravel-mix.com/docs/5.0/basic-example](https://laravel-mix.com/docs/5.0/basic-example)
-
-[https://tailwindcss.com/docs/installation/](https://tailwindcss.com/docs/installation/)
+- [https://laravel-mix.com/docs/5.0/basic-example](https://laravel-mix.com/docs/5.0/basic-example)
+- [https://tailwindcss.com/docs/installation/](https://tailwindcss.com/docs/installation/)
 
 ## Console
 
@@ -98,6 +100,7 @@ php console
 ```
 
 You can read the CLI routes implementation in F3
+
 [https://fatfreeframework.com/3.6/routing-engine#RoutinginCLImode](https://fatfreeframework.com/3.6/routing-engine#RoutinginCLImode)
 
 For example to add a new *test* command you can add this line in your console
