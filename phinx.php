@@ -11,7 +11,7 @@ return
         'default_migration_table' => 'migrations',
         'default_database' => 'app',
         'app' => [
-            'name' => 'f3',
+            'name' => env('DB_DATABASE', 'f3'),
             'connection' => $db->pdo(),
         ]
     ],
