@@ -11,7 +11,12 @@ mix.js('resources/js/app.js', 'public/js')
    .postCss('resources/css/app.css', 'public/css', [
       require('postcss-import'),
       require('tailwindcss'),
-      require('postcss-preset-env')({ stage: 1 }),
+      require('postcss-preset-env')({ 
+         stage: 1,
+         features: {
+            'focus-within-pseudo-class': false
+          }
+      }),
       ...process.env.NODE_ENV === 'production'
          ? [purgecss]
          : []
